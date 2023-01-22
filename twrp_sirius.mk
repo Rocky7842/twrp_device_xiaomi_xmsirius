@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_RELEASE_NAME := xmsirius
+PRODUCT_RELEASE_NAME := sirius
+
+# Fstab
+MI710_FSTAB_VARIANT := stock
 
 # Inherit from xmsirius device
 $(call inherit-product, device/xiaomi/xmsirius/device.mk)
-
-# Fstab
-MI710_FSTAB_VARIANT := xiaomi-sdm710-devs
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)

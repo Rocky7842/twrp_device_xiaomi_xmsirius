@@ -8,6 +8,7 @@
 include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/xmsirius
+USES_DEVICE_XIAOMI_XMSIRIUS := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := xmsirius,sirius

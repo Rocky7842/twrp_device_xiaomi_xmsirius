@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),xmsirius)
+ifeq ($(USES_DEVICE_XIAOMI_XMSIRIUS),true)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
