@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := grus
+PRODUCT_RELEASE_NAME := xmsirius
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,10 +23,10 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := grus
-PRODUCT_NAME := omni_grus
+PRODUCT_DEVICE := xmsirius
+PRODUCT_NAME := omni_xmsirius
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Mi 9 SE
+PRODUCT_MODEL := Xiaomi Mi 8 SE
 PRODUCT_MANUFACTURER := Xiaomi
 
 # HACK: Set vendor patch level

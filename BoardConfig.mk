@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/grus
+DEVICE_PATH := device/xiaomi/xmsirius
 
 # Architecture
 TARGET_ARCH := arm64
@@ -63,7 +63,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 #TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := grus
+TARGET_OTA_ASSERT_DEVICE := xmsirius
 
 # Avb
 BOARD_AVB_ENABLE := true
