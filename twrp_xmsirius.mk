@@ -8,15 +8,15 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from sirius device
-$(call inherit-product, device/xiaomi/sirius/device.mk)
+# Inherit from xmsirius device
+$(call inherit-product, device/xiaomi/xmsirius/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := sirius
-PRODUCT_NAME := twrp_sirius
+PRODUCT_DEVICE := xmsirius
+PRODUCT_NAME := twrp_xmsirius
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 SE
 PRODUCT_MANUFACTURER := xiaomi
