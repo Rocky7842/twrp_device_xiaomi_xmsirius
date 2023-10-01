@@ -77,6 +77,9 @@ TW_INCLUDE_CRYPTO_FBE := true
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_hdpi
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
+TW_MAX_BRIGHTNESS := 1024
+TW_DEFAULT_BRIGHTNESS := 310
 
 TARGET_RECOVERY_DEVICE_MODULES += \
     libion
