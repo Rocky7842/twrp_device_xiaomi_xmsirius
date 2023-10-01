@@ -87,6 +87,7 @@ TWRP_INCLUDE_LOGCAT := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone9/temp
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_LIBRESETPROP := true
+TW_NO_HAPTICS := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_EXTRA_LANGUAGES := true
