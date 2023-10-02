@@ -39,6 +39,14 @@ on fs
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
 on boot
+    # Crypto
+    mkdir /firmware
+    mount vfat /dev/block/bootdevice/by-name/modem /firmware ro
+    start qseecomd
+    exec u:r:recovery:s0 -- /system/bin/sleep 1s
+    start keymaster-3-0
+    start keymaster-3-0-qti
+
     start health-hal-2-1
 
     # HVDCP
