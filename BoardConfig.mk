@@ -9,5 +9,10 @@ include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/xmsirius
 
+# Kernel
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/Image.gz
+
 # Recovery
 #TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
