@@ -34,3 +34,4 @@ endif
 # TWRP
 TW_H_OFFSET := -85
 TW_Y_OFFSET := 85
+TW_DEFAULT_BRIGHTNESS := 310 # For a max brightness of 1023
