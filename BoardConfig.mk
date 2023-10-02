@@ -30,3 +30,7 @@ endif
 
 # Recovery
 #TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
+
+# TWRP
+TW_H_OFFSET := -85
+TW_Y_OFFSET := 85
