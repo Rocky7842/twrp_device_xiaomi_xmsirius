@@ -1,1 +1,1 @@
-# Device Tree for Xiaomi Mi 8 SE (xmsirius)
+# Device Tree for Xiaomi Mi 8 SE (xmsirius, sirius)
