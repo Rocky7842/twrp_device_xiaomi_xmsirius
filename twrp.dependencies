@@ -4,5 +4,11 @@
     "repository" : "Rocky7842/android_device_xiaomi_sdm710-common",
     "target_path": "device/xiaomi/sdm710-common",
     "branch"     : "android-12.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Rocky7842/proprietary_vendor_xiaomi_xmsirius",
+    "target_path": "vendor/xiaomi/xmsirius",
+    "branch"     : "twrp-12.1"
   }
 ]
