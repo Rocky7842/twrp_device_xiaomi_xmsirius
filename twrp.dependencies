@@ -1,0 +1,8 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "Rocky7842/android_device_xiaomi_sdm710-common",
+    "target_path": "device/xiaomi/sdm710-common",
+    "branch"     : "android-12.1"
+  }
+]
