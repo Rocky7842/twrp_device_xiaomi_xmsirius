@@ -13,6 +13,9 @@ MI710_KEYMASTER_VERSION := 3.0
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 27
 
+# Storage
+TARGET_USE_EMMC := true
+
 # Vendor blobs
 ifneq ($(wildcard vendor/xiaomi/xmsirius/proprietary/),)
 PRODUCT_COPY_FILES += \
